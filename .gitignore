@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+.venv/
+venv/
+env/
+ENV/
+
+# Test / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/
+.ruff_cache/
+
+# Cheat Engine table workspace (user-local, never commit)
+tables/*.ct
+!tables/.gitkeep
+tables/**/*.ct
+!tables/samples/*.ct
+tables/samples/*.bak
+*.ct.bak
+*.ct.tmp
+ce_tables_local/
+ct_cache/
+pointerscan_cache/
+
+# CE process dumps / signatures
+*.dmp
+*.sig
+sigdb/local/
+sigdb/**/*.sig
+!sigdb/README.md
+
+# IDE / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+*.log
+logs/
+*.pid
