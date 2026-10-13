@@ -1,0 +1,1 @@
+"""Transform side of the pipeline: parse, validate, normalize, sign."""
