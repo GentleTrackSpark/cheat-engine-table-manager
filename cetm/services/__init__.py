@@ -1,0 +1,1 @@
+"""Long-lived helpers shared across pipeline stages."""
