@@ -1,0 +1,1 @@
+"""Ingest side of the pipeline. One handler per source shape."""
