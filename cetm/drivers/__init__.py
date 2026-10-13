@@ -1,0 +1,1 @@
+"""Output side of the pipeline: where parsed tables go."""
